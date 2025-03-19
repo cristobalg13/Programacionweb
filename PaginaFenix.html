@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fénix Eco Tech - Tecnología, Sustentabilidad y Cine</title>
+  <link rel="stylesheet" href="estilosfenix.css">
+</head>
+<body>
+
+  <div class="login-container" id="login-container">
+    <div class="login-box">
+      <h2>Usuario</h2>
+      <input type="text" id="usuario" placeholder="Usuario" required>
+
+      <h2>Contraseña</h2>
+      <input type="password" id="password" placeholder="Contraseña" required>
+
+      <button id="btnLogin">Login</button>
+    </div>
+
+    <div class="welcome-box">
+      <h1>Bienvenido</h1>
+      <p id="forgotPass">¿Perdiste tu contraseña?</p>
+      <p id="noAccount">
+        ¿No tienes cuenta? 
+        <a href="#" id="showRegister">Regístrate</a>
+      </p>
+      <p><a href="#" id="volver">Volver</a></p>
+    </div>
+  </div>
+
+  <div class="registro-container" id="registro-container" style="display: none;">
+    <div class="registro-box">
+      <h2>Formulario de Registro</h2>
+      <input type="text" id="nombre" placeholder="Nombre" required>
+      <input type="text" id="apellido" placeholder="Apellido" required>
+      <input type="email" id="correo" placeholder="Correo" required>
+      <input type="password" id="contrasena" placeholder="Contraseña" required>
+
+      <label class="terminos-label">
+        <input type="checkbox" id="terminos"> Acepto los términos y condiciones
+      </label>
+      <button id="btnRegistrar">Registrar</button>
+      <p><a href="#" id="backLogin">Volver al Login</a></p>
+    </div>
+  </div>
+
+  <main id="content" style="display: none;">
+    <header>
+      <h1>Fénix Eco Tech</h1>
+      <p>Innovación tecnológica, conciencia ecológica y creatividad cinematográfica en un solo lugar.</p>
+    </header>
+    <section>
+      <h2>¿Quiénes somos?</h2>
+      <p>
+        Fénix Eco Tech es una empresa comprometida con la sustentabilidad, la informática y el cine. 
+        Nuestra misión es desarrollar soluciones tecnológicas innovadoras, fomentar el cuidado del medio ambiente 
+        y dar vida a proyectos audiovisuales con un enfoque ecológico y tecnológico.
+      </p>
+    </section>
+    <section>
+      <h2>Nuestros Servicios</h2>
+      <ul>
+        <li><strong>Informática:</strong> Desarrollo de software, mantenimiento de equipos y soluciones en la nube.</li>
+        <li><strong>Sustentabilidad:</strong> Implementación de tecnologías ecológicas y estrategias para reducir el impacto ambiental.</li>
+        <li><strong>Cine:</strong> Producción y edición de contenido audiovisual con un enfoque sostenible.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contacto</h2>
+      <p>Si deseas más información o trabajar con nosotros, puedes contactarnos a través de:</p>
+      <ul>
+        <li>📧 <a href="mailto:dukeocarnaval3@gmail.com">Envíanos un correo</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>Nuestra Ubicación</h2>
+      <img src="fenix.jpg" alt="Imagen de Fénix Eco Tech">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Fénix Eco Tech. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="servidorFenix.js"></script>
+  <script>
+   
